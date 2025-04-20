@@ -1,17 +1,33 @@
-# Online-Incident-Reporting-
-A fully hosted system for the management of the incident reporting process in Node.js with security best practices. 
+# 🛡️ Neighborhood Watch and Incident Reporting Platform
 
-The web application performs the following functions: 
-1. Register user
-2. Login 
-3. Create an incident 
-4. Edit an incident
-5. Delete incident 
-6. View my incidents
-7. View all incidents
-8. Add buildings (admin use only) – if you want to register as an admin, use “secret123 ” 
-9. Send a conatct form using Nodemailer  
+A web-based platform designed to improve community safety by enabling residents to report suspicious activities and incidents in real time. This platform fosters better communication between citizens, neighborhood watch groups, and local authorities to promote a safer living environment.
 
-The system has some security features like password hashing, reCAPTCHA, Cross-site scripting prevention, HTTP headers setting and NoSQL injection as the database is MongoDB.
+## 📝 Project Description
 
-`Do an npm install for installing all the project dependencies`
+The **Neighborhood Watch and Incident Reporting Platform** is a community-driven web application that allows users to:
+- Report local incidents such as theft, vandalism, or suspicious activity.
+- View and track incident reports in their area on a map-based dashboard.
+- Receive real-time alerts and notifications about neighborhood safety concerns.
+- Connect with other members of their neighborhood watch group.
+- Enable authorities or admins to monitor reports and respond accordingly.
+
+This initiative aims to enhance neighborhood safety through transparency, engagement, and timely response.
+
+## 🚀 Features
+
+- 🔐 User Authentication and Role Management (Residents, Watch Members, Admins)
+- 🗺️ Interactive Map to Visualize Reported Incidents
+- 📝 Incident Reporting Form with Image Upload and Location Tagging
+- 🔔 Real-Time Notifications and Alerts
+- 📊 Dashboard for Monitoring Safety Trends
+- 📁 Incident History and Filtering Options
+- 💬 Optional Messaging or Discussion Threads for Community Interaction
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (or specify if you're using something else)
+- **Other Tools:** Map APIs (e.g., Leaflet, Google Maps), Socket.IO (for real-time), etc.
+
+
